@@ -60,6 +60,12 @@ cp .env.example .env
 
 Open `.env` and paste your key after `OPENROUTER_API_KEY=`.
 
+Then load the variables into your shell:
+
+```bash
+set -a; source .env; set +a
+```
+
 ### 4. Run your agent
 
 ```bash
