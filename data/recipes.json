@@ -1,0 +1,2429 @@
+[
+  {
+    "name": "Butter Chicken With Coriander Rice",
+    "cook_time_mins": 35,
+    "calories": 565,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Sticky Sesame Beef Mince Stir-Fry",
+    "cook_time_mins": 20,
+    "calories": 639,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Sausage Meatball & Tomato Sauce With Fresh Orecchiette",
+    "cook_time_mins": 10,
+    "calories": 599,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Truffle Mayo Burger With Sweet Potato Fries",
+    "cook_time_mins": 35,
+    "calories": 869,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Sweet & Sour Chicken With Rice",
+    "cook_time_mins": 35,
+    "calories": 578,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Fragrant Thai Red Chicken Curry",
+    "cook_time_mins": 30,
+    "calories": 581,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Creamy Wild Garlic Chicken Thigh Stew With Waxy Potatoes",
+    "cook_time_mins": 10,
+    "calories": 447,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Chicken & Pesto Ciabatta With Chips And Salad",
+    "cook_time_mins": 30,
+    "calories": 649,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Sticky Chilli Chicken Thigh With Salt & Pepper Chips",
+    "cook_time_mins": 35,
+    "calories": 525,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Sloppy Joe Loaded Fries With Smoky Ranch Dressing",
+    "cook_time_mins": 30,
+    "calories": 624,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Oven Baked Chicken Thigh Biryani With Yoghurt",
+    "cook_time_mins": 25,
+    "calories": 589,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Buffalo Halloumi Shawarma Kebab",
+    "cook_time_mins": 20,
+    "calories": 627,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Creamy Spaghetti Carbonara",
+    "cook_time_mins": 10,
+    "calories": 667,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Hoisin Pork Stir-Fry With Chilli & Garlic Oil And Steamed Rice",
+    "cook_time_mins": 20,
+    "calories": 480,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Plant-Based Lentil & Mushroom Lasagne",
+    "cook_time_mins": 45,
+    "calories": 619,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Coriander Chicken With Couscous And Mint Yoghurt",
+    "cook_time_mins": 10,
+    "calories": 457,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Chicken Linguine With Tomatoes And Chilli",
+    "cook_time_mins": 20,
+    "calories": 516,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Creamy Red Pesto, Crispy Bacon & Broccoli Tortiglioni",
+    "cook_time_mins": 20,
+    "calories": 714,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Cheesy Peri Peri BBQ Chicken Breast W. Garlic Wedges & Peri Peri Mayo",
+    "cook_time_mins": 30,
+    "calories": 514,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 0.5,
+    "is_customisable": true
+  },
+  {
+    "name": "Thai Red Chicken Curry With Jasmine Rice",
+    "cook_time_mins": 7,
+    "calories": 421,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 2.0,
+    "is_customisable": false
+  },
+  {
+    "name": "Cheesy Broccoli Pasta Bake",
+    "cook_time_mins": 30,
+    "calories": 546,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "One Tray Greek-Style Lamb Meatball Tray Bake With Garlic Yoghurt",
+    "cook_time_mins": 30,
+    "calories": 476,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Korean-Style Rose Chicken With Sesame Soy Spinach & Rice",
+    "cook_time_mins": 20,
+    "calories": 669,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Pork & Beef Cheeseburger With Fries",
+    "cook_time_mins": 30,
+    "calories": 822,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Coq Au Vin Sandwich With Wedges",
+    "cook_time_mins": 40,
+    "calories": 611,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "King Prawn, Garlic & Chilli Linguine",
+    "cook_time_mins": 20,
+    "calories": 429,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Oven Baked Crispy Pork Belly With Wedges & Rocket",
+    "cook_time_mins": 65,
+    "calories": 568,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Garlic Mash Topped Lamb Meatloaf With Peas & Onion Gravy",
+    "cook_time_mins": 45,
+    "calories": 473,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "One Pan Broad Bean & Bacon Risotto With Crispy Leek Topping",
+    "cook_time_mins": 30,
+    "calories": 546,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Double Cheese Pepperoni Pizza With Garlic & Herb Dip",
+    "cook_time_mins": 25,
+    "calories": 798,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Jerk-Spiced Crispy Pork Belly With Slaw And Rice",
+    "cook_time_mins": 60,
+    "calories": 776,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Oven Baked Cheesy, Mushroom & Lentil Lasagne",
+    "cook_time_mins": 35,
+    "calories": 513,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Peri Peri Halloumi Burger With Fries & Peri-nnaise",
+    "cook_time_mins": 30,
+    "calories": 718,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Fiery Ruby Paneer Curry",
+    "cook_time_mins": 20,
+    "calories": 663,
+    "dietary_tags": [
+      "GF",
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Warming King Prawn Bhuna With Rice And Naan",
+    "cook_time_mins": 30,
+    "calories": 444,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Cheesy Black Bean Enchiladas",
+    "cook_time_mins": 30,
+    "calories": 564,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Sausage, Thyme & Mushroom White Rag\u00f9 With Spaghetti",
+    "cook_time_mins": 10,
+    "calories": 669,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Vietnamese-Style Pork Bun Cha Rice Noodles",
+    "cook_time_mins": 25,
+    "calories": 546,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Butternut Squash Bhuna With Cardamom Rice",
+    "cook_time_mins": 35,
+    "calories": 353,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Greek-Style Lamb Kebabs With Roast Potatoes & Garlic Mayo",
+    "cook_time_mins": 30,
+    "calories": 489,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Cheesy Pepperoni Pasta Bake",
+    "cook_time_mins": 35,
+    "calories": 615,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Mussels With Chilli, Garlic & Creamy Tomato Spaghetti",
+    "cook_time_mins": 10,
+    "calories": 607,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "One Pot Chicken Thigh Paella With Roasted Garlic Aioli",
+    "cook_time_mins": 35,
+    "calories": 643,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Lemon Pepper Chicken With Sweet Potato Mash",
+    "cook_time_mins": 35,
+    "calories": 376,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Creamy Red Pesto Chicken Breast Orzo",
+    "cook_time_mins": 10,
+    "calories": 671,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Fragrant Pho With Shredded Chicken",
+    "cook_time_mins": 30,
+    "calories": 473,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Spicy King Prawn & Cherry Tomato Spaghetti",
+    "cook_time_mins": 10,
+    "calories": 501,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Fruity Moroccan-Style Chicken Breast Stew With Couscous",
+    "cook_time_mins": 10,
+    "calories": 546,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Creamy Stroganoff-Style Pork & Mushroom Tortiglioni",
+    "cook_time_mins": 20,
+    "calories": 493,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Bacon & Egg Ciabatta With Caramelised Marmite Onions & Smoky Ketchup",
+    "cook_time_mins": 15,
+    "calories": 448,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Creamy Salmon & Courgette Sauce With Fresh Tagliatelle",
+    "cook_time_mins": 10,
+    "calories": 558,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Sausage & Red Onion Tomato Chutney Baguette With Chips & Salad",
+    "cook_time_mins": 30,
+    "calories": 637,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Firecracker Beef Stir-Fry With Sesame Accordion Cucumber",
+    "cook_time_mins": 25,
+    "calories": 691,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "BBQ Veggie Loaded Pizza With Salad",
+    "cook_time_mins": 20,
+    "calories": 685,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Lemony Orzo Primavera With Toasted Pine Nuts",
+    "cook_time_mins": 25,
+    "calories": 423,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Sticky Chinese-Style Basa With Sesame Pak Choi & Spring Onions",
+    "cook_time_mins": 20,
+    "calories": 473,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "3 Cheese Veg-Packed Pasta Bake",
+    "cook_time_mins": 25,
+    "calories": 593,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Crispy Coconut Paneer With Hot Honey, Chips & Curried Slaw",
+    "cook_time_mins": 30,
+    "calories": 557,
+    "dietary_tags": [
+      "V",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Honey Chicken Breast With Tomato & Pepper Rice Bake",
+    "cook_time_mins": 40,
+    "calories": 483,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Classic Hot Dog With Sweet Onions And Cheesy Fries",
+    "cook_time_mins": 40,
+    "calories": 837,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Pork & Basil Meatballs With Tomato Sauce & Mash",
+    "cook_time_mins": 30,
+    "calories": 476,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Chicken Curry Pie With Mustardy Greens",
+    "cook_time_mins": 35,
+    "calories": 578,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Creamy Mustard Salmon With Crushed Potatoes And Greens",
+    "cook_time_mins": 10,
+    "calories": 494,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 2.0,
+    "is_customisable": false
+  },
+  {
+    "name": "Fragrant Red Thai Vegetable Curry With Brown Rice",
+    "cook_time_mins": 30,
+    "calories": 578,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "One Pot Peri Peri Chicken & Rice With Buttered Corn",
+    "cook_time_mins": 25,
+    "calories": 525,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "3-Mushroom Stroganoff With Walnut Rice",
+    "cook_time_mins": 35,
+    "calories": 464,
+    "dietary_tags": [
+      "V",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Fiery Ruby Double Chicken Breast Curry",
+    "cook_time_mins": 20,
+    "calories": 703,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 1.5,
+    "is_customisable": true
+  },
+  {
+    "name": "One Pot Pulled Chicken, Red Pepper & Pesto Orzo",
+    "cook_time_mins": 25,
+    "calories": 614,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Double Pepperoni & Honey Pizza, Pickled Chilli & Pepperoni Mayo",
+    "cook_time_mins": 25,
+    "calories": 821,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Thai-Style Yellow Double Chicken Curry With Rice",
+    "cook_time_mins": 25,
+    "calories": 677,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 1.5,
+    "is_customisable": true
+  },
+  {
+    "name": "Harissa Chicken Breast Stuffed Sourdough Pitta & Tomato Bulgur",
+    "cook_time_mins": 20,
+    "calories": 719,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Vegetable Enchiladas With Tomato Salsa",
+    "cook_time_mins": 30,
+    "calories": 660,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Beef Brisket Baguette With Stout Onions & Peppercorn Mayo",
+    "cook_time_mins": 30,
+    "calories": 876,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 3.5,
+    "is_customisable": true
+  },
+  {
+    "name": "Ultimate Slow Cooked Beef Brisket & Red Wine Cottage Pie",
+    "cook_time_mins": 35,
+    "calories": 754,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 3.5,
+    "is_customisable": false
+  },
+  {
+    "name": "Spanish-Style Chicken & Charred Pepper Salad With Aioli",
+    "cook_time_mins": 30,
+    "calories": 406,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Harissa & Tomato Halloumi With Couscous",
+    "cook_time_mins": 10,
+    "calories": 638,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Smoky Chorizo Wholemeal Tortilla Stack With Salad",
+    "cook_time_mins": 10,
+    "calories": 782,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "King Prawn Roll With Crispy Potatoes & Chive Gem Salad",
+    "cook_time_mins": 25,
+    "calories": 609,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Tandoori-Style Paneer, Mint Raita And Kachumber Salad",
+    "cook_time_mins": 20,
+    "calories": 579,
+    "dietary_tags": [
+      "V",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Creamy King Prawn Tom Yum With Lemongrass Rice",
+    "cook_time_mins": 25,
+    "calories": 516,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "One Pan Cherry Tomato & Mussel Orzo With Garlic Butter",
+    "cook_time_mins": 25,
+    "calories": 441,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Creamy Pollock & Potato Bake With Garlicky Greens",
+    "cook_time_mins": 40,
+    "calories": 440,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Melty Greek-Style Lentil Moussaka",
+    "cook_time_mins": 50,
+    "calories": 373,
+    "dietary_tags": [
+      "V",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Creamy Tomato, Mushroom & Broccoli Spaghetti & A Chicken Breast",
+    "cook_time_mins": 20,
+    "calories": 752,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 1.5,
+    "is_customisable": true
+  },
+  {
+    "name": "Garlic, Chilli & Cream Tortiglioni With Asparagus",
+    "cook_time_mins": 20,
+    "calories": 630,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Pepperoni Pizza With Balsamic Salad",
+    "cook_time_mins": 25,
+    "calories": 661,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Tangy Stilton, Prosciutto & Tenderstem With Date Couscous",
+    "cook_time_mins": 10,
+    "calories": 626,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Hearty Lamb Rag\u00f9 Gnocchi Bake",
+    "cook_time_mins": 30,
+    "calories": 620,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Sichuan-Style Spicy Black Bean Tofu",
+    "cook_time_mins": 30,
+    "calories": 570,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "One Pan Alpine-Style Sausage & Waxy Potato Hash",
+    "cook_time_mins": 10,
+    "calories": 414,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Sweet Chilli Basa With Veg-Packed Rice",
+    "cook_time_mins": 20,
+    "calories": 552,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "One Pot Creamy Pork Rag\u00f9 And Spaghetti",
+    "cook_time_mins": 35,
+    "calories": 730,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Easy Triple Cheese Pizza",
+    "cook_time_mins": 20,
+    "calories": 752,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Warm Seeded Chicken & Waxy Potato Salad",
+    "cook_time_mins": 25,
+    "calories": 649,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Turmeric & Spinach Chicken Pilaf",
+    "cook_time_mins": 20,
+    "calories": 508,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Rarebit Toast With Truffled Honey And Mushrooms",
+    "cook_time_mins": 30,
+    "calories": 478,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Chorizo Pizza With Tomato & Salad",
+    "cook_time_mins": 25,
+    "calories": 784,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Sweet & Sour Jumbo King Prawns With Brown Rice",
+    "cook_time_mins": 25,
+    "calories": 487,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 1.5,
+    "is_customisable": true
+  },
+  {
+    "name": "Peri Peri Steak Prego Roll With Romesco Aioli & Chips",
+    "cook_time_mins": 30,
+    "calories": 745,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 3.5,
+    "is_customisable": false
+  },
+  {
+    "name": "Rump Steak With Creamy Mushroom Sauce And Sweet Potato Chips",
+    "cook_time_mins": 25,
+    "calories": 525,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 3.25,
+    "is_customisable": true
+  },
+  {
+    "name": "Halloumi Tacos With Peri Peri Mayo",
+    "cook_time_mins": 10,
+    "calories": 943,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Crispy Halloumi Wholemeal Wraps With Chilli Sauce",
+    "cook_time_mins": 30,
+    "calories": 734,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Chicken Shish Kebab With Tomato Bulgur Pilaf And Zingy Salad",
+    "cook_time_mins": 50,
+    "calories": 523,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Chicken Tikka Masala With Saffron Rice",
+    "cook_time_mins": 7,
+    "calories": 512,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 2.0,
+    "is_customisable": false
+  },
+  {
+    "name": "Creamy Smoked Mackerel Tortiglioni With Chilli & Lemon",
+    "cook_time_mins": 20,
+    "calories": 607,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Spiced Chickpea Stew With Chilli-Peanut Crumb",
+    "cook_time_mins": 10,
+    "calories": 501,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Bacon Cobb Salad With Garlic Ranch Dressing",
+    "cook_time_mins": 35,
+    "calories": 603,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Ploughman's With Honey Mustard Sausage Roll, Stilton & Cheddar",
+    "cook_time_mins": 30,
+    "calories": 968,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Oven Baked Sri Lankan-Style Cauliflower & Chickpea Curry",
+    "cook_time_mins": 35,
+    "calories": 561,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Chicken Jalfrezi With Jeera Rice",
+    "cook_time_mins": 30,
+    "calories": 456,
+    "dietary_tags": [
+      "GF",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Italian-Inspired Picky Tea",
+    "cook_time_mins": 10,
+    "calories": 615,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 0.5,
+    "is_customisable": false
+  },
+  {
+    "name": "One Tray Smoky Chorizo & Egg Traybake With Salad",
+    "cook_time_mins": 30,
+    "calories": 575,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Pulled Pork Memphis-Style Philly With Garlic French Fries",
+    "cook_time_mins": 45,
+    "calories": 822,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 1.75,
+    "is_customisable": false
+  },
+  {
+    "name": "Crispy Soy Basa With Black Bean Greens And White Rice",
+    "cook_time_mins": 35,
+    "calories": 499,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Kleftiko-Style Lamb With Tomato & Pepper Garlic Sweet Potatoes",
+    "cook_time_mins": 45,
+    "calories": 534,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 5.75,
+    "is_customisable": true
+  },
+  {
+    "name": "Flaked Salmon Tart With Crispy Potatoes",
+    "cook_time_mins": 30,
+    "calories": 631,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Tomato & Bacon Amatriciana Sauce With Fresh Orecchiette",
+    "cook_time_mins": 10,
+    "calories": 560,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "All In One Pork & Beef Rag\u00f9 Spaghetti With Tomato Salad",
+    "cook_time_mins": 60,
+    "calories": 783,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Mexican-Style Feast With Pulled Pork Birria Tacos",
+    "cook_time_mins": 45,
+    "calories": 914,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 2.5,
+    "is_customisable": false
+  },
+  {
+    "name": "Mediterranean-Style Vegetable Lasagne",
+    "cook_time_mins": 50,
+    "calories": 352,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "King Prawn Paella With Lemon Aioli",
+    "cook_time_mins": 40,
+    "calories": 487,
+    "dietary_tags": [
+      "GF",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Mediterranean-Style Chicken Pasta",
+    "cook_time_mins": 7,
+    "calories": 492,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 2.0,
+    "is_customisable": false
+  },
+  {
+    "name": "Cubano-Style Sandwich With Potato Crisps And Dill Cucumber",
+    "cook_time_mins": 30,
+    "calories": 514,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Baked Korean-Style BBQ Pulled Shiitake Mushrooms & Sesame Spinach",
+    "cook_time_mins": 35,
+    "calories": 689,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "South African-Style Lamb & Dates Sosaties With Curry Butter Corn",
+    "cook_time_mins": 30,
+    "calories": 484,
+    "dietary_tags": [
+      "GF",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Thai-Style Basa Burger With Crispy Fries & Sriracha Mayo",
+    "cook_time_mins": 30,
+    "calories": 603,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "BBQ Special With Wagyu Burger, Peri Peri Chicken & Sausages",
+    "cook_time_mins": 25,
+    "calories": 1440,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 7.5,
+    "is_customisable": false
+  },
+  {
+    "name": "Chinese-Style Chicken Thigh Hotpot With Pak Choi",
+    "cook_time_mins": 35,
+    "calories": 536,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Speedy Caprese Glorious Grain Salad With Pesto Dressing",
+    "cook_time_mins": 10,
+    "calories": 729,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Battered Basa With Salt & Vinegar Chips And Mushy Peas",
+    "cook_time_mins": 30,
+    "calories": 487,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Prosciutto & Mushroom Pizza With Garlic Oil",
+    "cook_time_mins": 25,
+    "calories": 623,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Sri Lankan-Style Crab & King Prawn Curry",
+    "cook_time_mins": 25,
+    "calories": 471,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 2.25,
+    "is_customisable": true
+  },
+  {
+    "name": "Meat-Free Sausage & Red Onion Tomato Chutney Baguette With Chips",
+    "cook_time_mins": 30,
+    "calories": 660,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Red Wine Pulled Shiitake Mushroom Rag\u00f9 Tortiglioni",
+    "cook_time_mins": 25,
+    "calories": 724,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Spicy Fragrant Squash & Pistachio Curry",
+    "cook_time_mins": 35,
+    "calories": 488,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Pico De Gallo Tex Mex-Style Steak 'N' Rice Bowl With Avocado",
+    "cook_time_mins": 20,
+    "calories": 719,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 3.0,
+    "is_customisable": true
+  },
+  {
+    "name": "Moroccan-Style Chickpea Stew With Lemony Couscous",
+    "cook_time_mins": 10,
+    "calories": 423,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Easy Jumbo King Prawn Biryani",
+    "cook_time_mins": 25,
+    "calories": 454,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 1.5,
+    "is_customisable": true
+  },
+  {
+    "name": "Higgidy Smoked Bacon & Cheddar Quiche With Herby Butter Potatoes",
+    "cook_time_mins": 20,
+    "calories": 544,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 2.0,
+    "is_customisable": false
+  },
+  {
+    "name": "Stout Battered Basa Sarnie With Salt & Vinegar Chips",
+    "cook_time_mins": 30,
+    "calories": 646,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Golden Halloumi With Tzatziki And Fruity Couscous",
+    "cook_time_mins": 10,
+    "calories": 698,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "One Pot Masala Basa Biryani With Yoghurt & Curry Mango Butter",
+    "cook_time_mins": 25,
+    "calories": 468,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Spiced Aubergine With Spinach & Tamarind Dal",
+    "cook_time_mins": 35,
+    "calories": 348,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Sri Lankan-Style Chicken Biryani With Mint Sambol Slaw",
+    "cook_time_mins": 20,
+    "calories": 573,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Lebanese-Style Spiced Rice With Crispy Basa",
+    "cook_time_mins": 25,
+    "calories": 583,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Thai Red Veg Curry Noodles With Chilli Peanut Crumb",
+    "cook_time_mins": 20,
+    "calories": 603,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Broccoli Pesto Orecchiette With Lemon Pangrattato & A Chicken Breast",
+    "cook_time_mins": 20,
+    "calories": 736,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 1.5,
+    "is_customisable": true
+  },
+  {
+    "name": "Crispy Pork Spring Roll Wraps With Sweet Chilli Sauce",
+    "cook_time_mins": 30,
+    "calories": 624,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Chettinad-Style Paneer Curry With Rice And Naan",
+    "cook_time_mins": 35,
+    "calories": 623,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Caribbean-Style Spicy Jerk Turkey Steak With Rice & Beans",
+    "cook_time_mins": 20,
+    "calories": 659,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 2.0,
+    "is_customisable": true
+  },
+  {
+    "name": "Harissa Chicken, Roast Veg Couscous & Paprika Yoghurt",
+    "cook_time_mins": 40,
+    "calories": 503,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Slow Cooked Beef Brisket Birria Tacos",
+    "cook_time_mins": 40,
+    "calories": 849,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 3.5,
+    "is_customisable": true
+  },
+  {
+    "name": "Spanish-Style Bean Shakshuka With Herby Potatoes & A Chicken Breast",
+    "cook_time_mins": 20,
+    "calories": 692,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 1.5,
+    "is_customisable": true
+  },
+  {
+    "name": "Curried Basa With Spinach Potatoes & Mango Yoghurt",
+    "cook_time_mins": 20,
+    "calories": 380,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Brazilian-Inspired Spicy Steak With Charred Corn Salad",
+    "cook_time_mins": 20,
+    "calories": 459,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 3.0,
+    "is_customisable": false
+  },
+  {
+    "name": "Sri Lankan-Style Coconut Dal With Aubergine Pickle",
+    "cook_time_mins": 30,
+    "calories": 653,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Plant-Based Garlic & Coriander Butter Chickpea Burritos",
+    "cook_time_mins": 30,
+    "calories": 788,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Fijian-Style Lime & Coconut Pollock Curry With Rice",
+    "cook_time_mins": 20,
+    "calories": 411,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Thai Red Chicken Thigh & Pepper Curry With Lemongrass Rice",
+    "cook_time_mins": 25,
+    "calories": 700,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Creamy Chorizo & Butternut Squash Farfalle",
+    "cook_time_mins": 20,
+    "calories": 715,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Green Chilli Verde Prawn & Avocado Salsa Tostadas With Corn Ribs",
+    "cook_time_mins": 20,
+    "calories": 678,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 1.25,
+    "is_customisable": true
+  },
+  {
+    "name": "Malaysian-Style Sambal Prawn Lentil Dal With Garlic Roti",
+    "cook_time_mins": 25,
+    "calories": 702,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Herby Pork Gnocchi Bolognese",
+    "cook_time_mins": 10,
+    "calories": 581,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Chilli Con Tofu With Crispy Tortillas And Avocado Salsa",
+    "cook_time_mins": 20,
+    "calories": 792,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Plant-Based Creamy Truffle Mushroom Spaghetti",
+    "cook_time_mins": 10,
+    "calories": 650,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Paneer Tikka Masala With Cardamom Brown Rice",
+    "cook_time_mins": 25,
+    "calories": 686,
+    "dietary_tags": [
+      "V",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Saag Aloo With Peas And Pitta",
+    "cook_time_mins": 10,
+    "calories": 488,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Kimchi-Spiced Prawn Brioche, Buttery Soy Potatoes & Salad",
+    "cook_time_mins": 10,
+    "calories": 460,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Roast Duck Breast And Honey & Soy Sauce With Pak Choi",
+    "cook_time_mins": 25,
+    "calories": 660,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 3.25,
+    "is_customisable": false
+  },
+  {
+    "name": "Butternut Squash & Sage Sauce With Fresh Orecchiette",
+    "cook_time_mins": 10,
+    "calories": 541,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Butterflied Tandoori-Style Tail On Prawns W. Mango Butter & Slaw",
+    "cook_time_mins": 20,
+    "calories": 535,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 1.5,
+    "is_customisable": false
+  },
+  {
+    "name": "Soy-Glazed Chicken With Japanese-Style Slaw",
+    "cook_time_mins": 35,
+    "calories": 691,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Sausage & Shallot Pizza With Salad",
+    "cook_time_mins": 30,
+    "calories": 738,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Chive Crumbed Basa With Veg & Lemony Mayo",
+    "cook_time_mins": 25,
+    "calories": 314,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Classic Hot Dog With Mustard Ketchup & Pickles",
+    "cook_time_mins": 30,
+    "calories": 700,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Classic Meat-Free Hot Dog With Onions And Cheesy Fries",
+    "cook_time_mins": 40,
+    "calories": 730,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Cheesy Pepperoni Pizza Loaded Fries With Garlic & Herb Dip",
+    "cook_time_mins": 40,
+    "calories": 611,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Squash, Pepper & Lemongrass Curry With Rice",
+    "cook_time_mins": 40,
+    "calories": 453,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "American Platter W. Jalapeno Sausage, Wings & Stilton Cheese Potatoes",
+    "cook_time_mins": 30,
+    "calories": 1177,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 5.0,
+    "is_customisable": false
+  },
+  {
+    "name": "Chicken & Bacon Caesar Salad Loaded Tacos With Chips",
+    "cook_time_mins": 30,
+    "calories": 983,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 2.0,
+    "is_customisable": false
+  },
+  {
+    "name": "2 Meals: Sun-Dried Tomato & Chicken Thigh Stew x Creamy Orzo",
+    "cook_time_mins": 40,
+    "calories": 1259,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 4.75,
+    "is_customisable": false
+  },
+  {
+    "name": "Squash & Sage Sauce With Spinach & Ricotta Ravioli",
+    "cook_time_mins": 10,
+    "calories": 521,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Warm Lemony Beef Tabbouleh",
+    "cook_time_mins": 20,
+    "calories": 596,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Oven Baked Cauliflower & Chickpea Muhammara",
+    "cook_time_mins": 30,
+    "calories": 507,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Spicy Sweet Potato & Carrot Ital-Style Stew",
+    "cook_time_mins": 30,
+    "calories": 644,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Spanish-Style Sausage Salad With Crispy Paprika Potatoes",
+    "cook_time_mins": 40,
+    "calories": 702,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Creamy Sausage & Courgette Gnocchi With Cheese Crisp",
+    "cook_time_mins": 25,
+    "calories": 570,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Tandoori Vegetable Biryani",
+    "cook_time_mins": 7,
+    "calories": 621,
+    "dietary_tags": [
+      "PB",
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 1.0,
+    "is_customisable": false
+  },
+  {
+    "name": "Oregano Sea Bass With Prasorizo-Style Dill Orzo",
+    "cook_time_mins": 30,
+    "calories": 551,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 2.25,
+    "is_customisable": false
+  },
+  {
+    "name": "Cheesy Sausage & Pepper Chilli Con Carne Pasta Bake",
+    "cook_time_mins": 35,
+    "calories": 546,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Baked Coconut & Sambal Chicken Breast With Rice",
+    "cook_time_mins": 35,
+    "calories": 550,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 0.5,
+    "is_customisable": true
+  },
+  {
+    "name": "Spiced Lamb With Herby Bulgur And Sumac Tomatoes",
+    "cook_time_mins": 30,
+    "calories": 525,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Sri Lankan-Style Pork Patties With Sweet Potato Fries",
+    "cook_time_mins": 30,
+    "calories": 466,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": true
+  },
+  {
+    "name": "Creamy Coronation Chickpea Salad",
+    "cook_time_mins": 20,
+    "calories": 422,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Roast Smoked Gammon, Egg & Twice Cooked Chips With Pineapple Sauce",
+    "cook_time_mins": 45,
+    "calories": 618,
+    "dietary_tags": [
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 3.0,
+    "is_customisable": true
+  },
+  {
+    "name": "Cheesy Baked Sole And Pea Greens With Garlic Butter",
+    "cook_time_mins": 30,
+    "calories": 407,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 1.75,
+    "is_customisable": true
+  },
+  {
+    "name": "Rich Mushroom Rag\u00f9 Linguine",
+    "cook_time_mins": 35,
+    "calories": 515,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Tamarind & Date Glazed Gammon With Roast Potatoes",
+    "cook_time_mins": 40,
+    "calories": 533,
+    "dietary_tags": [
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 3.0,
+    "is_customisable": false
+  },
+  {
+    "name": "Chicken & Chorizo Potato-Topped Pie With Smoky Butter",
+    "cook_time_mins": 40,
+    "calories": 534,
+    "dietary_tags": [
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 2.25,
+    "is_customisable": false
+  },
+  {
+    "name": "Indian-Style Beans With Fried Egg And Sweet Potato Wedges",
+    "cook_time_mins": 35,
+    "calories": 443,
+    "dietary_tags": [
+      "V",
+      "DF",
+      "GF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Summery Roast Vegetable Salad",
+    "cook_time_mins": 30,
+    "calories": 274,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "One Pot Plant-Based Butternut Squash & Spinach Lasagne",
+    "cook_time_mins": 45,
+    "calories": 547,
+    "dietary_tags": [
+      "PB",
+      "V",
+      "DF"
+    ],
+    "categories": [],
+    "has_extra_cost": false,
+    "extra_cost_gbp": null,
+    "is_customisable": false
+  },
+  {
+    "name": "Higgidy Smoked Salmon Quiche With Asparagus & Warm Potato Salad",
+    "cook_time_mins": 20,
+    "calories": 620,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 2.0,
+    "is_customisable": false
+  },
+  {
+    "name": "2 Meals: Peri Peri Chicken Thighs x Caesar Salad",
+    "cook_time_mins": 40,
+    "calories": 1378,
+    "dietary_tags": [],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 5.0,
+    "is_customisable": false
+  },
+  {
+    "name": "2 Meals: Aubergine Parmigiana x Pesto & Aubergine Tart",
+    "cook_time_mins": 50,
+    "calories": 966,
+    "dietary_tags": [
+      "V"
+    ],
+    "categories": [],
+    "has_extra_cost": true,
+    "extra_cost_gbp": 4.5,
+    "is_customisable": false
+  }
+]
