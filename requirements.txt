@@ -1,0 +1,15 @@
+# Recipe Selector Agent Dependencies
+
+# Agent/AI
+# anthropic==<version>  # When using Claude API directly
+
+# Data Processing
+# pandas==2.0.0
+# requests==2.31.0
+
+# Utilities
+python-dotenv==1.0.0
+
+# Development
+pytest==7.0.0
+black==23.0.0
