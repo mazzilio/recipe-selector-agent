@@ -1,12 +1,74 @@
-# 🤖 Build Your Own Agent — Starter Kit
+# 🥘 Mise — AI Meal Planning Agent
 
-A hands-on starting point for building your **own** AI agent — one that remembers things,
-has a personality, and can be extended with new skills. It runs on **free and open**
-tools, so you can build all day without a bill.
+> **Fuzzy Labs "Build an AI Agent" Hackathon 2026**  
+> Team: **The Meal Deal**
 
-You don't need to be a hardcore coder. If you can edit a text file and run a command in a
-terminal, you can build an agent. This kit gives you a working agent on minute one, then
-shows you how to make it yours.
+---
+
+## The Problem
+
+Choosing Gousto meals every week is a chore. The menu opens on Monday with 200+ recipes and you have to scroll, filter, and second-guess yourself before settling on five. Decision fatigue is real, and it leads to lazy picks, unbalanced weeks, and meals that don't actually fit your schedule.
+
+**Mise** automates that entire process — it scrapes the week's menu, knows what you like, and hands you a shortlist of five recipes that fit your diet, your time, and your taste.
+
+---
+
+## The Team — The Meal Deal
+
+| Name | Role | Contribution |
+|---|---|---|
+| **Mariam** | Architect | Technical design, scraper, filtering logic, agent setup, OpenCode integration |
+| **Maria** | Product Owner | PRD definition, requirements, user stories, acceptance criteria |
+| **Thana** | Project Manager | Process, planning, sprint coordination, documentation |
+
+---
+
+## How We Built It
+
+We used AI from the very first step — not just to write code, but to define *what* to build.
+
+1. **PRD with AI** — We described the problem to a Copilot Chat agent and iterated on a Product Requirements Document together. The AI helped us think through edge cases, data contracts, and the right scope for an MVP.
+
+2. **Splitting the work** — With the PRD as a shared reference, we divided the build into five steps (scrape → filter → email → calendar → meal plan) and worked through them in order, using the PRD as our source of truth for what "done" looks like.
+
+3. **Agentic workflow** — Rather than building a traditional app, we built around agent primitives: skills (reusable task definitions in Markdown), memory (preferences persisted between sessions), and a named agent (Mise) that orchestrates everything in OpenCode.
+
+---
+
+## What We've Built
+
+### Custom components
+
+| Component | What it does |
+|---|---|
+| **`src/gousto_scraper.py`** | Headless Playwright scraper — navigates the Gousto React SPA, extracts all 205 recipe cards using stable `data-testing` DOM attributes |
+| **`src/models.py`** | Pydantic `Recipe` model — name, cook time, calories, dietary tags, extra-cost flag, customisable flag |
+| **`src/main.py`** | CLI entry point — runs the scraper, prints a summary, saves `data/recipes.json` |
+| **`src/shortlist.py`** | Hard-filter helper — reads preferences + catalogue, applies dietary/cost/cook-time rules, returns ≤ 20 ranked candidates for the agent to reason over |
+| **`memory/user-preferences.md`** | Persisted user profile — dietary requirements, allergies, dislikes, cook-time limit, favourite cuisines. Written by the agent, editable by hand |
+| **`.opencode/agents/mise.md`** | Primary OpenCode agent — Mise's identity, constraints, and workflow overview |
+| **`.opencode/skills/collect-preferences/`** | OpenCode skill — interviews the user one question at a time and saves preferences to memory |
+| **`.opencode/skills/shortlist-recipes/`** | OpenCode skill — runs the hard-filter script, agent picks 5 recipes with reasoning, writes `data/shortlist.json` |
+
+### What the pipeline looks like today
+
+```
+python3 src/main.py          →  scrape Gousto menu  →  data/recipes.json (205 recipes)
+                                                              │
+opencode --agent mise                                         ▼
+  "collect my preferences"   →  interview user      →  memory/user-preferences.md
+  "shortlist recipes"        →  filter + rank        →  data/shortlist.json (5 recipes)
+```
+
+### What's next
+
+| Step | Feature | Status |
+|---|---|---|
+| 1 | Gousto menu scraper | ✅ Complete |
+| 2 | Recipe filtering & shortlisting | ✅ Complete |
+| 3 | User email review loop | 🔲 Not started |
+| 4 | Calendar free/busy integration | 🔲 Not started |
+| 5 | Meal plan generation | 🔲 Not started |
 
 ---
 
@@ -14,251 +76,138 @@ shows you how to make it yours.
 
 Strip away the hype and an AI agent is a **loop** with five parts:
 
-| Part | What it is | In this kit |
+| Part | What it is | In this project |
 |---|---|---|
-| 🧠 **Model** | The brain that reasons and writes | An open-weight model (Qwen / DeepSeek) via OpenRouter |
+| 🧠 **Model** | The brain that reasons and writes | Qwen3 Coder via OpenRouter (free tier) |
 | 🔁 **Harness** | The loop that lets the model read, think, and act | **OpenCode** (open-source, runs in your terminal) |
-| 📜 **Instructions** | Who the agent is and how it behaves | `AGENTS.md` |
+| 📜 **Instructions** | Who the agent is and how it behaves | `AGENTS.md` + `.opencode/agents/mise.md` |
 | 🛠️ **Skills** | Reusable "how to do X" recipes | `.opencode/skills/` |
-| 💾 **Memory** | What it remembers between sessions | the `memory/` folder |
+| 💾 **Memory** | What it remembers between sessions | `memory/` folder |
 
-A chatbot answers and forgets. An **agent** has instructions, can *do* things (skills),
-and *remembers* (memory). That's the whole difference, and this kit hands you all five.
-
-### The two open pieces
-
-- **The harness — [OpenCode](https://opencode.ai).** Properly open source. It's the loop
-  that turns a model into an agent: it reads your files, runs your skills, uses tools.
-- **The model — open-weight, via [OpenRouter](https://openrouter.ai).** OpenRouter is one
-  API key that reaches dozens of models, including free open-weight ones like
-  **Qwen3 Coder** and **DeepSeek**. The free tier gives you ~50 requests/day with no
-  credit card. (OpenRouter itself is a paid gateway — but the *models* it serves are open,
-  and the free tier costs nothing.)
+A chatbot answers and forgets. An **agent** has instructions, can *do* things (skills), and *remembers* (memory). That's the whole difference.
 
 ---
 
-## Quick start (about 5 minutes)
+## Setup
 
-### 1. Install OpenCode
-
-```bash
-curl -fsSL https://opencode.ai/install | bash
-```
-
-(Other install options — Homebrew, npm — are in the [OpenCode docs](https://opencode.ai/docs/).)
-
-### 2. Get a free OpenRouter key
-
-Sign up at **<https://openrouter.ai>**, then create a key at
-<https://openrouter.ai/keys>. No credit card needed for the free tier.
-
-### 3. Add your key
-
-```bash
-cp .env.example .env
-```
-
-Open `.env` and paste your key after `OPENROUTER_API_KEY=`.
-
-Then load the variables into your shell:
-
-```bash
-set -a; source .env; set +a
-```
-
-### 4. Run your agent
-
-```bash
-opencode
-```
-
-Then talk to it. Try this, in order, to see all five parts working:
-
-1. *"Remember that our demo is on Friday."* → it uses the **capture-note** skill and a new
-   file appears in `memory/`.
-2. Quit (`Ctrl-C`) and start `opencode` again — a totally fresh session.
-3. *"What do you know about the demo?"* → it uses the **recall** skill and answers from
-   `memory/`, even though the conversation is gone. **That's persistence.**
-
-If that worked: congratulations, you have a working agent. Now make it yours. 🎉
-
-> **Heads-up on cheap models:** free open-weight models are brilliant value but a little
-> less reliable at multi-step tool use than the big paid ones. If your agent gets confused,
-> try a stronger model (see *Switching models* below) — or just give it a clearer
-> instruction. This is normal; it's part of the craft.
-
----
-
-## Make it yours
-
-Here's the whole repo and what each piece is for:
-
-```
-agent-starter-kit/
-├── AGENTS.md              ← your agent's constitution (start here)
-├── opencode.json          ← config: which model, which MCP servers
-├── .env                   ← your secret API key (you create this)
-├── memory/                ← long-term memory (also an Obsidian/Logseq vault)
-├── .opencode/
-│   ├── agents/            ← personas (researcher.md is an example)
-│   └── skills/            ← skills (capture-note, recall)
-└── docs/
-    ├── persistence.md     ← choosing Notion vs Obsidian vs Logseq
-    └── ideas.md           ← a menu of things to build next
-```
-
-### Step 1 — Give it a personality (`AGENTS.md`)
-
-This file is read at the start of every session. Open it and rewrite the *"Who this agent
-is"* section. Give it a name, a job, an attitude. This is the fastest way to make the
-agent feel like *yours* — do it first.
-
-### Step 2 — Teach it a skill
-
-A **skill** is a Markdown recipe for one task. The agent reads a skill's one-line
-`description` and, when a request matches, follows its steps. Look at
-`.opencode/skills/capture-note/SKILL.md` — that's the whole pattern.
-
-To add your own, create `.opencode/skills/<your-skill>/SKILL.md`:
-
-```markdown
----
-name: your-skill
-description: Use when the user wants to <the trigger>. Be specific — this is how the agent decides to use it.
----
-
-# Your Skill
-
-## When to use this
-<the situations that should trigger it>
-
-## Procedure
-1. <step one>
-2. <step two>
-3. Tell the user what you did.
-```
-
-That's it. Restart OpenCode and your skill is live. The `description` matters most — write
-it like the moment you'd want the agent to reach for this.
-
-### Step 3 — Give it a persona (optional)
-
-A **persona** is a focused mindset, defined in `.opencode/agents/<name>.md`. The example
-`researcher.md` is a subagent your main agent can call to dig into a question. Copy it,
-rename it, rewrite the instructions. `mode: subagent` = a helper the agent calls;
-`mode: primary` = an agent you talk to directly.
-
-### Step 4 — Give it hands (MCP, optional)
-
-**MCP** lets your agent reach the outside world — Notion, Slack, GitHub, databases.
-`opencode.json` already has a Notion server stubbed (disabled). To use it, flip
-`"enabled": true` and follow the login prompt. More in `docs/persistence.md`.
-
----
-
-## Memory & the persistence layer
-
-This is worth a real decision, so it has its own guide: **[`docs/persistence.md`](docs/persistence.md)**.
-
-The short version: by default your agent's memory is **plain Markdown files in `memory/`**,
-which is *also* a valid **Obsidian** and **Logseq** vault. Open that folder in either app
-and you and your agent literally share one knowledge base — it writes notes, you read and
-edit them, and vice versa. If you'd rather use **Notion** (better for teams and
-databases), the guide shows how to switch — you only rewrite the two memory skills.
-
----
-
-## Switching models
-
-Edit the `"model"` line in `opencode.json`. The format is `openrouter/<author>/<model>`.
-Some good ones to try (check <https://openrouter.ai/models> for current names and which
-are free):
-
-- `openrouter/qwen/qwen3-coder` — strong free coding model, big context (default here)
-- `openrouter/deepseek/deepseek-chat` — strong reasoning
-- a `:free` suffix on a model name (e.g. `...:free`) forces the no-cost variant
-
----
-
-## What to build next
-
-Open **[`docs/ideas.md`](docs/ideas.md)** — it's a menu of skills, personas, and MCP
-connections, roughly easiest-first, with demo tips at the bottom. Don't build all of it.
-Pick the one or two that make *your* agent genuinely useful to *you*, and go deep.
-
-Have fun. Build something that helps you. 💜
-
----
-
-### Useful links
-
-- OpenCode docs — <https://opencode.ai/docs/>
-- OpenCode Skills — <https://opencode.ai/docs/skills/>
-- OpenCode Agents — <https://opencode.ai/docs/agents/>
-- OpenRouter models & pricing — <https://openrouter.ai/models>
-- MCP server directory — <https://github.com/modelcontextprotocol/servers>
-- Obsidian — <https://obsidian.md> · Logseq — <https://logseq.com>
-
----
-
-## 🥘 Mise — Meal Planning Agent
-
-This repo has been extended into a Gousto meal planning agent. It scrapes the weekly menu, learns your preferences, and shortlists 5 recipes for you.
-
-### Additional setup
+### 1. Install Python dependencies
 
 ```bash
 pip3 install -r requirements.txt
 python3 -m playwright install chromium
 ```
 
-### Usage
+### 2. Install OpenCode
 
-**Scrape the latest Gousto menu** (run this each week):
+```bash
+curl -fsSL https://opencode.ai/install | bash
+```
+
+### 3. Add your API key
+
+```bash
+cp .env.example .env
+```
+
+Open `.env` and fill in your [OpenRouter](https://openrouter.ai/keys) key (free tier, no credit card):
+
+```
+OPENROUTER_API_KEY=your-key-here
+```
+
+Load it into your shell:
+
+```bash
+set -a; source .env; set +a
+```
+
+---
+
+## Running the agent
+
+### Scrape the latest Gousto menu
 
 ```bash
 python3 src/main.py
 ```
 
-Saves ~205 recipes to `data/recipes.json`. Add `--debug` to also save an HTML snapshot.
+Run this each Monday when Gousto opens the new week. Saves ~205 recipes to `data/recipes.json`.
 
-**Set your preferences** (first time only — updates `memory/user-preferences.md`):
+### Set your preferences (first time only)
 
-```
-opencode → "collect my preferences"
-```
-
-**Get your weekly shortlist of 5 recipes:**
-
-```
-opencode → "shortlist recipes"
+```bash
+opencode --agent mise
 ```
 
-Saves the shortlist to `data/shortlist.json`.
+Then say: **"collect my preferences"**
 
-**To scrape automatically every Monday at 9am**, add a cron job:
+The agent interviews you and saves your answers to `memory/user-preferences.md`. Edit it directly any time.
+
+### Get your weekly shortlist
+
+In the same OpenCode session, say: **"shortlist recipes"**
+
+The agent filters the catalogue, picks 5 recipes with reasoning, and saves them to `data/shortlist.json`.
+
+### Automate the scrape (optional)
+
+See [ADR-001](docs/adr/ADR-001-automation-strategy.md) for a full comparison of scheduling options. Quick start with cron:
 
 ```bash
 crontab -e
-# Add:
+# Add — runs every Monday at 9am:
 0 9 * * 1 cd /path/to/recipe-selector-agent && python3 src/main.py >> data/scraper.log 2>&1
 ```
 
-### Project structure
+---
+
+## Using with GitHub Copilot instead of OpenCode
+
+If you prefer VS Code + Copilot over OpenCode, the skills in `.opencode/skills/` are plain Markdown — you can paste them into a Copilot Chat session and it will follow them in the same way. The `memory/` folder works identically as a reference source.
+
+---
+
+## Project structure
 
 ```
-src/
-├── main.py              ← scraper CLI entry point
-├── gousto_scraper.py    ← Playwright scraper
-├── models.py            ← Recipe data model
-└── shortlist.py         ← hard-filter helper (used by agent)
-memory/
-└── user-preferences.md  ← your dietary prefs (written by agent, editable by you)
-data/                    ← gitignored outputs
-├── recipes.json
-├── shortlist.json
-└── history.json         ← tracks past meals to avoid repeats
-docs/
-└── shortlisting-workflow.md
+recipe-selector-agent/
+├── AGENTS.md                        ← agent constitution
+├── PRD.md                           ← product requirements & progress tracker
+├── opencode.json                    ← model config (Qwen3 via OpenRouter)
+├── .env.example                     ← API key template
+├── .opencode/
+│   ├── agents/mise.md               ← Mise primary agent definition
+│   └── skills/
+│       ├── collect-preferences/     ← preference interview skill
+│       ├── shortlist-recipes/       ← shortlisting skill
+│       ├── capture-note/            ← memory write skill
+│       └── recall/                  ← memory read skill
+├── memory/
+│   └── user-preferences.md         ← your dietary profile
+├── src/
+│   ├── main.py                      ← scraper entry point
+│   ├── gousto_scraper.py            ← Playwright scraper
+│   ├── models.py                    ← Recipe data model
+│   └── shortlist.py                 ← hard-filter CLI helper
+├── data/                            ← gitignored outputs
+│   ├── recipes.json                 ← full scraped catalogue
+│   ├── shortlist.json               ← this week's 5 recipes
+│   └── history.json                 ← past meals (avoids repeats)
+└── docs/
+    ├── architecture.md
+    ├── shortlisting-workflow.md
+    └── adr/
+        └── ADR-001-automation-strategy.md
 ```
+
+---
+
+## Links
+
+- [Fuzzy Labs](https://fuzzylabs.ai) · Build an AI Agent Hackathon 2026
+- [OpenCode docs](https://opencode.ai/docs/)
+- [OpenRouter models](https://openrouter.ai/models)
+- [Gousto menu](https://www.gousto.co.uk/menu)
+- [PRD](PRD.md) · [Architecture](docs/architecture.md) · [ADR-001](docs/adr/ADR-001-automation-strategy.md)
+
 

@@ -5,6 +5,9 @@
 # Scraped output & debug snapshots
 data/
 
+# Scraped output & debug snapshots
+data/
+
 # OpenCode local state
 .opencode/cache/
 .opencode/state/
