@@ -3,16 +3,21 @@
 # Agent/AI
 # anthropic==<version>  # When using Claude API directly
 
+# Scraping
+playwright>=1.44
+
+# Data Modelling
+pydantic>=2.0
+
 # Data Processing
 # pandas==2.0.0
-# requests==2.31.0
 
 # Utilities
 python-dotenv==1.0.0
 
 # Development
 pytest==7.0.0
-black==26.3.1
+black>=26.3.1
 
 #Gmail API
 google-api-python-client

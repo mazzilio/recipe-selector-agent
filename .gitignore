@@ -1,5 +1,12 @@
 # Secrets — never commit your real key
 .env
+.instructions.md
+
+# Scraped output & debug snapshots
+data/
+
+# Scraped output & debug snapshots
+data/
 
 # OpenCode local state
 .opencode/cache/
