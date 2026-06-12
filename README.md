@@ -198,3 +198,67 @@ Have fun. Build something that helps you. 💜
 - OpenRouter models & pricing — <https://openrouter.ai/models>
 - MCP server directory — <https://github.com/modelcontextprotocol/servers>
 - Obsidian — <https://obsidian.md> · Logseq — <https://logseq.com>
+
+---
+
+## 🥘 Mise — Meal Planning Agent
+
+This repo has been extended into a Gousto meal planning agent. It scrapes the weekly menu, learns your preferences, and shortlists 5 recipes for you.
+
+### Additional setup
+
+```bash
+pip3 install -r requirements.txt
+python3 -m playwright install chromium
+```
+
+### Usage
+
+**Scrape the latest Gousto menu** (run this each week):
+
+```bash
+python3 src/main.py
+```
+
+Saves ~205 recipes to `data/recipes.json`. Add `--debug` to also save an HTML snapshot.
+
+**Set your preferences** (first time only — updates `memory/user-preferences.md`):
+
+```
+opencode → "collect my preferences"
+```
+
+**Get your weekly shortlist of 5 recipes:**
+
+```
+opencode → "shortlist recipes"
+```
+
+Saves the shortlist to `data/shortlist.json`.
+
+**To scrape automatically every Monday at 9am**, add a cron job:
+
+```bash
+crontab -e
+# Add:
+0 9 * * 1 cd /path/to/recipe-selector-agent && python3 src/main.py >> data/scraper.log 2>&1
+```
+
+### Project structure
+
+```
+src/
+├── main.py              ← scraper CLI entry point
+├── gousto_scraper.py    ← Playwright scraper
+├── models.py            ← Recipe data model
+└── shortlist.py         ← hard-filter helper (used by agent)
+memory/
+└── user-preferences.md  ← your dietary prefs (written by agent, editable by you)
+data/                    ← gitignored outputs
+├── recipes.json
+├── shortlist.json
+└── history.json         ← tracks past meals to avoid repeats
+docs/
+└── shortlisting-workflow.md
+```
+
