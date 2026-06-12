@@ -51,7 +51,7 @@ The email contains the five shortlisted recipes with brief descriptions. The use
 - **Drop** — remove a recipe from the shortlist
 - **Switch** — request an alternative suggestion for a specific slot
 
-When a drop or switch is requested, the agent proposes a replacement from the remaining catalogue (excluding already-selected recipes and any extra-cost options) and confirms via a follow-up email. This loop continues until the user is satisfied or confirms their final five.
+When drop is selected, no replacement is proposed. When a switch is requested, the agent proposes a replacement from the remaining catalogue (excluding already-selected recipes and any extra-cost options) and confirms via a follow-up email. This loop continues until the user is satisfied or confirms their final shortlist.
 
 ### 3. Meal Planning & Calendar Integration
 
