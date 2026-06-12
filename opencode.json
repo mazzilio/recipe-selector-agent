@@ -14,6 +14,19 @@
       "type": "remote",
       "url": "https://mcp.notion.com/mcp",
       "enabled": false
+    },
+    "calendar": {
+      "httpUrl": "https://calendarmcp.googleapis.com/mcp/v1",
+      "oauth": {
+        "enabled": true,
+        "clientId": "{env:CLIENT_ID}",
+        "clientSecret": "{env:CLIENT_SECRET}",
+        "scopes": [
+          "https://www.googleapis.com/auth/calendar.calendarlist.readonly",
+          "https://www.googleapis.com/auth/calendar.events.freebusy",
+          "https://www.googleapis.com/auth/calendar.events.readonly"
+        ]
+      }
     }
   }
 }
