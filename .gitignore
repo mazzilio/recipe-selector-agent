@@ -1,46 +1,16 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual environments
-venv/
-ENV/
-env/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Environment variables
+# Secrets — never commit your real key
 .env
-.env.local
 
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
+# OpenCode local state
+.opencode/cache/
+.opencode/state/
 
-# Misc
+# OS / editor noise
 .DS_Store
+*.swp
+.obsidian/
+.logseq/
+
+# Keep the memory/ folder, but if you'd rather not commit your agent's notes,
+# uncomment the next line:
+# memory/*.md
