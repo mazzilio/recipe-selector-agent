@@ -14,3 +14,7 @@
 # Keep the memory/ folder, but if you'd rather not commit your agent's notes,
 # uncomment the next line:
 # memory/*.md
+
+credentials.json
+token.json
+data/reviews/

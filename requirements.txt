@@ -12,4 +12,10 @@ python-dotenv==1.0.0
 
 # Development
 pytest==7.0.0
-black==23.0.0
+black==26.3.1
+
+#Gmail API
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+python-dotenv
